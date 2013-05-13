@@ -4,6 +4,7 @@ jQuery Dropdown Plugin
 Simple responsive jQuery plugin to handle dropdowns.
 
 Example HTML markup:
+```html
 <nav>
 	<ul>
 		<li>
@@ -16,19 +17,31 @@ Example HTML markup:
 		</li>
 	</ul>
 </nav>
-
+```
 Just call it like any other jQuery method, like so:
+```javascript
 $('nav').dropdown();
+```
 
 Settings:
+
 action: defaults to hover
+
 hoverClass: defaults to hover
+
 activeClass: defaults to active
+
 animationTime: defaults to slow
+
 touchElement: defaults to a
+
 touchedClass: defaults to touched
+
 itemSelector: defaults to li
+
 dropdownSelector: defaults to ul
+
 activatedCallback: callback called on successful activation
+
 activeCallback: callback called when animation is complete on action
 
