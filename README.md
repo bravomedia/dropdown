@@ -3,6 +3,10 @@ jQuery Dropdown Plugin
 
 Simple responsive jQuery plugin to handle dropdowns.
 
+Depends on [jGestures](http://jgestures.codeplex.com/)
+
+Right now all levels matching the criteria (dropdownSelector) and markup will collapse, there will soon be an option to set how many levels to collapse.
+
 Example HTML markup:
 ```html
 <nav>
